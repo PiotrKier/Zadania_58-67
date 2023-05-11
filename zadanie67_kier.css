@@ -1,0 +1,23 @@
+p:first-letter {
+	font-size: 120pt;
+	color: #FF9F00;
+}
+p {
+	font-size:20pt;
+	color: #ffd700;
+}
+h1:first-letter {
+	font-size: 140pt;
+	color: #C0c0c0;
+}
+h1 {
+	font-size: 40pt;
+	color: #7F00FF;
+}
+h2:first-line {
+	color: #9ffb88;
+}
+h2 {
+	font-size:21pt;
+	color: #ffd700;
+}

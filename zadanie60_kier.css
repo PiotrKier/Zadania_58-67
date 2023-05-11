@@ -1,0 +1,29 @@
+div#blok1_kierbedz {
+	width : 613px;
+	background-color : green;
+	}
+	
+div#blok1_kierbedz:hover {
+	font-size : 18mm;
+	background-color : yellow;
+}
+	
+div#blok2_kierbedz {
+	width : 613px;
+	background-color : green;
+	}
+
+div#blok2_kierbedz:hover {
+	font-size : 18mm;
+	background-color : red;
+}
+	
+div#blok3_kierbedz {
+	width : 613px;
+	background-color : green;
+	}
+	
+div#blok3_kierbedz:hover {
+	font-size : 18mm;
+	background-color : blue;
+}

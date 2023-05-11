@@ -1,0 +1,134 @@
+<html>
+
+<head>
+<title> </title>
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<h1>1. Co to są pseudoklasy?</h1>
+
+<p>
+CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie 
+niektórych elementów dokumentu są to Pseudoklasy.
+</p>
+
+<h1>2. Uwaga dotycząca dwukropka :</h1>
+
+<p>
+Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący 
+pomiędzy selektorem a nazwą klasy.
+</p>
+
+<h1>3.Tabela opisująca pseudoklasy</h1>
+
+<table border="1">
+
+<thead>
+
+<tr>
+<td>A:link</td>
+<td>odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze odwiedzone.</td>
+
+</tr>
+<tr>
+
+<td>A:visited</td>
+<td>odpowiada za formatowanie hiperłącza już odwiedzonego.</td>
+
+</tr>
+<tr>
+
+<td>A:hover</td>
+<td>zmiany pewnych elementów po najechaniu na nie urządzeniem wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor lub element blokowy DIV.</td>
+
+</tr>
+<tr>
+
+<td>A:active</td>
+<td>pozwala nadać dowolne formatowanie elementowi po nakierowaniu na niego wskaźnika myszy i wciśnięciu przycisku, ale przed jego zwolnieniem (odsyłacz aktywnykliknięty).</td>
+
+</tr>
+<tr>
+
+<td>A:focus</td>
+<td>jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był formatowany innym kolorem. Odsyłacz posiadający tzw fokus-zaznaczony przy poruszaniu się po dokumencie przy pomocy klawiszatabulacji: naciśnięcie w tym momencie klawisza ENTER spowoduje taką reakcję przeglądarki, jakby dany odsyłacz został kliknięty.</td>
+
+</tr>
+<tr>
+
+<td>A:lang</td>
+<td>formatowanie wielojęzykowych dokumentów.</td>
+
+</tr>
+<tr>
+
+<td>A:first-child</td>
+<td>umożliwia określenie formatowania dla pierwszego dziecka wybranego elementu.</td>
+
+</tr>
+
+</thead>
+
+</table>
+
+<h1>4.Zastosowanie pseudoklasy "active"</h1>
+<ol type="I">
+<li>jako uzupełnienia definicji odnośników</li>
+<li>jako elementu poprawiającego czytelność formularzy</li>
+</ol>
+
+<h1>5.Przykłady kodów definiowania pseudoklasy</h1>
+
+<h3>Arkusz wykorzystujący :link oraz :visited pseudoklasy w połączeniu z selektorem A. 
+Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po 
+wybraniu taki odnośnik będzie miał kolor zielony.</h3>
+
+<p>
+A:link<br>
+{<br>
+color:red;<br>
+}<br>
+A:visited<br>
+{<br>
+color:green;
+}<br>
+</p>
+
+<h3>Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML.</h3>
+
+<p>
+A<br>
+{<br>
+font-size:12pt;<br>
+text-decoration:none;<br>
+}<br>
+A:link<br>
+{<br>
+color:navy;<br>
+}<br>
+A:visited<br>
+{<br>
+color:green;<br>
+}<br>
+A:hover<br>
+{<br>
+color:red;<br>
+text-decoration:underline;<br>
+}<br>
+</p>
+
+<h3>Zastosowanie :focus</h3>
+
+<p>
+A:focus<br>
+{<br>
+color:brown;<br>
+}<br>
+</p>
+
+</body>
+
+</html>
+<! Piotr Kierbedź >

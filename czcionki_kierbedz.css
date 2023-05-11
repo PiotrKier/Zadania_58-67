@@ -1,0 +1,86 @@
+p#a1_kierbedz {
+	color: red;
+	text-align: right;
+	}
+
+p#a2_kierbedz {
+	color: red;
+	text-align: center;
+	}
+
+#z1_kierbedz {
+	color: #76946C;
+	font-family: serif;
+	font-weight: 400;
+	font-size: xx-small;
+	text-indent: 3cm;
+	line-height: 1,2cm;
+	word-spacing: 9px;
+	letter-spacing: 3ex;
+	text-decoration: overline;
+	}
+
+#z2_kierbedz {
+	color: #8A8076;
+	font-family: serif;
+	font-weight: 600;
+	font-size: medium;
+	text-indent: 3cm;
+	line-height: 1,2cm;
+	word-spacing: 9px;
+	letter-spacing: 3ex;
+	font-style: italic;
+	}
+
+#z3_kierbedz {
+	color: #808A94;
+	font-family: serif;
+	font-style: italic;
+	font-weight: 800;
+	font-size: xx-large;
+	text-indent: 3cm;
+	line-height: 1,2cm;
+	word-spacing: 9px;
+	letter-spacing: 3ex;
+	text-transform: capitalize;
+	}
+
+#z4_kierbedz {
+	color: #EBACDF;
+	font-family: sans-serif;
+	text-decoration: line-through;
+	font-weight: 300;
+	font-size: 14px;
+	text-indent: 15mm;
+	line-height: 12mm;
+	word-spacing: 13pt;
+	letter-spacing: 0.3cm;
+	}
+
+#z5_kierbedz {
+	color: #FFB6D5;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	font-weight: 600;
+	font-size: 0.0800in;
+	text-indent: 15mm;
+	line-height: 12mm;
+	word-spacing: 13pt;
+	letter-spacing: 0.3cm;
+	}
+
+#z6_kierbedz {
+	color: #F5C0E9;
+	font-family: sans-serif;
+	font-style: oblique;
+	font-weight: 800;
+	font-size: 0.6500em;
+	text-indent: 15mm;
+	line-height: 12mm;
+	word-spacing: 13pt;
+	letter-spacing: 0.3cm;
+	}
+
+hr {
+    border-top: 1px dashed black;
+	}
